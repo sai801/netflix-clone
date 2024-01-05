@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+   
+    <nav>
+        <a href="#"><img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo"></a>
+    </nav>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="signup-process.php" method="post">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="passwordconfirmation" placeholder="Confirm your password" required>
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>Already have an account? <a href="signin.html">Sign In</a></p>
+    </div>
+</body>
+</html>
